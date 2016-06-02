@@ -1,0 +1,16 @@
+*{margin: 0; padding: 0; outline: none}
+
+/*borders*/
+.border-1 {border: 1px solid #000}
+.border-2{border: 2px solid #000}
+
+
+
+.fullwidth{width: 100%}
+
+/* colors */
+.c-red{background: rgb(235, 4, 4)}
+.c-black{background: #000}
+
+/* positions */
+.fixed {position: fixed}
