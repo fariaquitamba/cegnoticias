@@ -1,8 +1,18 @@
 *{margin: 0; padding: 0; outline: none}
+a{text-decoration: none}
 
 /*borders*/
 .border-1 {border: 1px solid #000}
 .border-2{border: 2px solid #000}
+.border-left {border-left: 1px solid #FFF}
+
+
+/*paddings */
+
+.padding {padding: 1em}
+.padding-2 {padding: 2em}
+.padding-top {padding-top: 1em}
+.padding-top-2 {padding-top: 2em}
 
 
 
@@ -11,6 +21,24 @@
 /* colors */
 .c-red{background: rgb(235, 4, 4)}
 .c-black{background: #000}
+.c-light-green {background: #5ade13}
+
+/*color texts */
+
+.text-white {color: #FFF}
+.text-red {color: #df1610}
 
 /* positions */
 .fixed {position: fixed}
+
+/*colunas */
+
+.col-half {width: 50%}
+.col-third {width: 30%}
+.col-l2 {width: 20%}
+.col-l6 {width: 69.5%}
+
+/*floats and align */
+
+.right {float: right}
+.left {float: left}
