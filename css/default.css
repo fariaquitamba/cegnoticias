@@ -1,4 +1,4 @@
-*{margin: 0; padding: 0; outline: none}
+*{margin: 0; padding: 0; outline: none; font-family: 'Montserrat', sans-serif; box-sizing: border-box}
 a{text-decoration: none}
 
 /*borders*/
@@ -14,6 +14,15 @@ a{text-decoration: none}
 .padding-top {padding-top: 1em}
 .padding-top-2 {padding-top: 2em}
 
+/*margins */
+
+.margin {margin: 1em}
+.margin-2 {margin: 2em}
+.margin-top {margin-top: 1em}
+.margin-top-2 {margin-top: 2em}
+.margin-left {margin-left: 1em}
+.margin-right {margin-right: 1em}
+
 
 
 .fullwidth{width: 100%}
@@ -22,6 +31,7 @@ a{text-decoration: none}
 .c-red{background: rgb(235, 4, 4)}
 .c-black{background: #000}
 .c-light-green {background: #5ade13}
+.c-dark-red {background: #a60505}
 
 /*color texts */
 
@@ -34,7 +44,7 @@ a{text-decoration: none}
 /*colunas */
 
 .col-half {width: 50%}
-.col-third {width: 30%}
+.col-third {width: 30%; float: left}
 .col-l2 {width: 20%}
 .col-l6 {width: 69.5%}
 
@@ -42,3 +52,15 @@ a{text-decoration: none}
 
 .right {float: right}
 .left {float: left}
+
+/*displays */
+.d-block {display: block}
+.d-inline {display: inline}
+.d-inline-block {display: inline-block}
+
+/*cards effect */
+
+.card{box-shadow: 0px 0px 3px #000}
+
+/*lists */
+.c-list {list-style: none}
