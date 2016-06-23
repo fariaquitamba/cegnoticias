@@ -1,11 +1,35 @@
 *{margin: 0; padding: 0; outline: none; font-family: 'Montserrat', sans-serif; box-sizing: border-box}
+h3{font-family: 'Roboto', sans-serif;}
 a{text-decoration: none}
 
 /*borders*/
 .border-1 {border: 1px solid #000}
 .border-2{border: 2px solid #000}
 .border-left {border-left: 1px solid #FFF}
+.border-bottom {border-bottom:2px solid #eb0404;}
 
+/*titles */
+
+h1{font-size: 2em}
+h2{font-size:  1.5em}
+.f-larger {font-size: 3em}
+.f-xlarger {font-size: 4em}
+.f-xxlarger{font-size: 5em}
+.f-tiny {font-size: 0.8em}
+
+/*Texts-align */
+.t-center {text-align: center}
+.t-right {text-align: right}
+.t-left {text-align: left}
+.t-justify {text-align: justify}
+
+
+/*font-weight */
+
+.ft-tiny {font-weight: 100}
+.ft-skinny {font-weight: 200}
+.ft-normal {font-weight: 400}
+.ft-bold {font-weight: 900}
 
 /*paddings */
 
@@ -13,6 +37,7 @@ a{text-decoration: none}
 .padding-2 {padding: 2em}
 .padding-top {padding-top: 1em}
 .padding-top-2 {padding-top: 2em}
+.padding-left{padding-left: 1em}
 
 /*margins */
 
@@ -22,21 +47,24 @@ a{text-decoration: none}
 .margin-top-2 {margin-top: 2em}
 .margin-left {margin-left: 1em}
 .margin-right {margin-right: 1em}
+.margin-bottom {margin-bottom: 1em}
 
 
 
 .fullwidth{width: 100%}
 
 /* colors */
-.c-red{background: rgb(235, 4, 4)}
+.c-red{background: rgb(235, 4, 4); }
 .c-black{background: #000}
 .c-light-green {background: #5ade13}
 .c-dark-red {background: #a60505}
+
 
 /*color texts */
 
 .text-white {color: #FFF}
 .text-red {color: #df1610}
+.text-grey {color: #989898}
 
 /* positions */
 .fixed {position: fixed}
